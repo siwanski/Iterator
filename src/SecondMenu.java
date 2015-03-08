@@ -16,10 +16,10 @@ public class SecondMenu implements Menu{
 	public SecondMenu() {
 		menuPositions = new MenuPosition[MAX_NUMBER_OF_ITEMS];
 		
-		addItem("Vegetable sandwith", "Bread, tomatoe, vegetable beef", true, 2.99);
-		addItem("Sandwith PREMIUM", "Bread, tomatoe, sallad", false, 2.99);
-		addItem("Tomatoe sallad", "Tomatoe, sallad, oil", true, 3.49);
-		addItem("Hot-Dog", "cheese, onion, bread, meat", true, 1.89);
+		addItem("Vegetable sandwith", "Bread, Tomatoe, Vegetable beef", true, 2.99);
+		addItem("Sandwith PREMIUM", "Bread, Tomatoe, Sallad", false, 2.99);
+		addItem("Tomatoe sallad", "Tomatoe, Sallad, Oil", true, 3.49);
+		addItem("Hot-Dog", "Cheese, Onion, Bread, Meat", true, 1.89);
 	}
 	
 	public void addItem(String name, String description, boolean vegetable, double price) {
